@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>RPG - Dragon Repeller</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="assets/img/icon.svg">
+</head>
+
+<body>
+  <video class="video-bg" autoplay muted loop>
+    <source src="assets/video/dragon-background.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <div id="game">
+    <div id="stats">
+      <span class="stat">XP: <strong><span id="xpText">0</span></strong></span>
+      <span class="stat">Health: <strong><span id="healthText">100</span></strong></span>
+      <span class="stat">Gold: <strong><span id="goldText">50</span></strong></span>
+    </div>
+
+    <div id="controls">
+      <button id="button1">Go to store <i class="fa-solid fa-store"></i></button>
+      <button id="button2">Go to cave <i class="fa-solid fa-person-running"></i></button>
+      <button id="button3">Fight dragon <i class="fa-solid fa-dragon"></i></button>
+    </div>
+
+    <div id="monsterStats">
+      <span class="stat">Monster Name: <strong><span id="monsterName"></span></strong></span>
+      <span class="stat">Health: <strong><span id="monsterHealth"></span></strong></span>
+    </div>
+
+    <div id="text">Welcome to Dragon Repeller. You must defeat the dragon that is preventing people from leaving the town. You are in the town square. Where do you want to go? Use the buttons above.</div>
+
+    <div class="audio">
+      <button type="button" id="volume-controller" class="audio--control" onclick="volumeControl()">
+        <i class="fa-solid fa-volume-high"></i>
+      </button>
+
+      <audio id="audio" src="assets/audio/background-audio.mp3" hidden autoplay loop></audio>
+    </div>
+  </div>
+  <script  src="assets/js/script.js"></script>
+  <script src="assets/js/fontAwesome.js" crossorigin="anonymous"></script>
+</body>
+</html>
