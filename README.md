@@ -19,6 +19,7 @@ Dragon Repeller is a lightweight **RPG browser game** where you embark on an adv
 ```bash
 git@github.com:MdZaferEqbal/RPG-dragon-repeller.git
 cd RPG-dragon-repeller
+```
 
 ## 🚀 How to Start Playing
 ### 2️⃣ Open `index.html`
