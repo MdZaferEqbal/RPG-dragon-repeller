@@ -19,3 +19,29 @@ Dragon Repeller is a lightweight **RPG browser game** where you embark on an adv
 ```bash
 git@github.com:MdZaferEqbal/RPG-dragon-repeller.git
 cd RPG-dragon-repeller
+
+## 🚀 How to Start Playing
+### 2️⃣ Open `index.html`
+Simply open `index.html` in your browser and start playing!
+
+## 📌 How to Play
+1. Start in the **Town Square**.
+2. Choose where to go:
+   - 🏪 **Store**: Buy health or upgrade your weapon.
+   - 🏕️ **Cave**: Fight **Slime** or **Fanged Beast**.
+   - 🐉 **Fight the Dragon** (Final Boss).
+3. Manage your **XP, Gold, and Health** wisely.
+4. **Attack or Dodge** during battles.
+5. Defeat monsters to **level up and earn rewards**.
+6. **Win by defeating the Dragon!**
+
+## 🔊 Audio Controls
+The game includes **background music and battle sounds**.  
+You can **mute/unmute** the audio using the volume button.
+
+## 📷 Screenshots
+_(You can add game screenshots here)_
+
+## ⚡ Future Improvements
+- 🏹 More weapons and power-ups.
+- 🌎 A
