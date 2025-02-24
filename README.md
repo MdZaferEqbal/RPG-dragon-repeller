@@ -40,9 +40,6 @@ Simply open `index.html` in your browser and start playing!
 The game includes **background music and battle sounds**.  
 You can **mute/unmute** the audio using the volume button.
 
-## 📷 Screenshots
-_(You can add game screenshots here)_
-
 ## ⚡ Future Improvements
 - 🏹 More weapons and power-ups.
 - 🌎 A
